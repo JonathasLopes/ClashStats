@@ -10,9 +10,15 @@
 		862CCA752924196700F5F31B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862CCA742924196700F5F31B /* AppDelegate.swift */; };
 		862CCA772924196700F5F31B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862CCA762924196700F5F31B /* SceneDelegate.swift */; };
 		862CCA792924196700F5F31B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862CCA782924196700F5F31B /* ViewController.swift */; };
-		862CCA7C2924196700F5F31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA7A2924196700F5F31B /* Main.storyboard */; };
 		862CCA7E2924196800F5F31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA7D2924196800F5F31B /* Assets.xcassets */; };
 		862CCA812924196800F5F31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA7F2924196800F5F31B /* LaunchScreen.storyboard */; };
+		862CCA8D29241C1C00F5F31B /* ClashUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862CCA8C29241C1C00F5F31B /* ClashUIView.swift */; };
+		862CCA9529242CD700F5F31B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA9029242CD700F5F31B /* Roboto-Medium.ttf */; };
+		862CCA9629242CD700F5F31B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA9129242CD700F5F31B /* Roboto-Regular.ttf */; };
+		862CCA9729242CD700F5F31B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA9229242CD700F5F31B /* Roboto-Thin.ttf */; };
+		862CCA9829242CD700F5F31B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA9329242CD700F5F31B /* Roboto-Light.ttf */; };
+		862CCA9929242CD700F5F31B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862CCA9429242CD700F5F31B /* Roboto-Bold.ttf */; };
+		8661F67C2924865B005ED930 /* extensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661F67B2924865B005ED930 /* extensionUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,16 @@
 		862CCA742924196700F5F31B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		862CCA762924196700F5F31B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		862CCA782924196700F5F31B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		862CCA7B2924196700F5F31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		862CCA7D2924196800F5F31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862CCA802924196800F5F31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862CCA822924196800F5F31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862CCA8C29241C1C00F5F31B /* ClashUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashUIView.swift; sourceTree = "<group>"; };
+		862CCA9029242CD700F5F31B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		862CCA9129242CD700F5F31B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		862CCA9229242CD700F5F31B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		862CCA9329242CD700F5F31B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		862CCA9429242CD700F5F31B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		8661F67B2924865B005ED930 /* extensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		862CCA732924196700F5F31B /* ClashStats */ = {
 			isa = PBXGroup;
 			children = (
+				862CCA8A29241BDF00F5F31B /* Clash */,
 				862CCA742924196700F5F31B /* AppDelegate.swift */,
-				862CCA762924196700F5F31B /* SceneDelegate.swift */,
-				862CCA782924196700F5F31B /* ViewController.swift */,
-				862CCA7A2924196700F5F31B /* Main.storyboard */,
+				862CCA8E29242C8100F5F31B /* Resources */,
 				862CCA7D2924196800F5F31B /* Assets.xcassets */,
 				862CCA7F2924196800F5F31B /* LaunchScreen.storyboard */,
 				862CCA822924196800F5F31B /* Info.plist */,
 			);
 			path = ClashStats;
+			sourceTree = "<group>";
+		};
+		862CCA8829241BA900F5F31B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				862CCA762924196700F5F31B /* SceneDelegate.swift */,
+				862CCA8C29241C1C00F5F31B /* ClashUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		862CCA8929241BBE00F5F31B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				862CCA782924196700F5F31B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		862CCA8A29241BDF00F5F31B /* Clash */ = {
+			isa = PBXGroup;
+			children = (
+				8661F67A29248604005ED930 /* Extension */,
+				862CCA8929241BBE00F5F31B /* Controller */,
+				862CCA8829241BA900F5F31B /* View */,
+			);
+			path = Clash;
+			sourceTree = "<group>";
+		};
+		862CCA8E29242C8100F5F31B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				862CCA8F29242C8E00F5F31B /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		862CCA8F29242C8E00F5F31B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				862CCA9429242CD700F5F31B /* Roboto-Bold.ttf */,
+				862CCA9329242CD700F5F31B /* Roboto-Light.ttf */,
+				862CCA9029242CD700F5F31B /* Roboto-Medium.ttf */,
+				862CCA9129242CD700F5F31B /* Roboto-Regular.ttf */,
+				862CCA9229242CD700F5F31B /* Roboto-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8661F67A29248604005ED930 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8661F67B2924865B005ED930 /* extensionUIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +191,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862CCA9929242CD700F5F31B /* Roboto-Bold.ttf in Resources */,
 				862CCA812924196800F5F31B /* LaunchScreen.storyboard in Resources */,
 				862CCA7E2924196800F5F31B /* Assets.xcassets in Resources */,
-				862CCA7C2924196700F5F31B /* Main.storyboard in Resources */,
+				862CCA9829242CD700F5F31B /* Roboto-Light.ttf in Resources */,
+				862CCA9629242CD700F5F31B /* Roboto-Regular.ttf in Resources */,
+				862CCA9729242CD700F5F31B /* Roboto-Thin.ttf in Resources */,
+				862CCA9529242CD700F5F31B /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8661F67C2924865B005ED930 /* extensionUIView.swift in Sources */,
+				862CCA8D29241C1C00F5F31B /* ClashUIView.swift in Sources */,
 				862CCA792924196700F5F31B /* ViewController.swift in Sources */,
 				862CCA752924196700F5F31B /* AppDelegate.swift in Sources */,
 				862CCA772924196700F5F31B /* SceneDelegate.swift in Sources */,
@@ -147,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		862CCA7A2924196700F5F31B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				862CCA7B2924196700F5F31B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		862CCA7F2924196800F5F31B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +356,10 @@
 				INFOPLIST_FILE = ClashStats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +385,10 @@
 				INFOPLIST_FILE = ClashStats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
